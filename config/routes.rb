@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get "ask", to: "questions#answer"
   post "question", to: "questions#question"
   get "answer", to: "questions#answer"
+  get "ask_another_question", to: "questions#ask"
 end
